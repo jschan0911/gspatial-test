@@ -53,7 +53,7 @@ class Neo4jHandler:
         self.query(query)
 
     @time_trace
-    def query_operation(self, operation_name, l1, l2, is_jena=False):
+    def query_topology_operation(self, operation_name, l1, l2, is_jena=False):
         plugin_name = 'operation'
         if is_jena:
             plugin_name = 'jenaOperation'
@@ -129,21 +129,27 @@ class Neo4jHandler:
         """
         self.query(query)
 
+TWO_GEOMETRY_OPERATIONS = ['intersection', 'difference', 'union', 'sym_difference']
+TWO_TOPOLOGY_OPERATIONS = ['contains', 'covers', 'covered_by', 'crosses', 'disjoint', 'equals', 'intersects', 'overlaps', 'touches', 'within']
+DISTANCE_OPERATIONS = ['distance']
+PARAM_OPERATIONS = ['buffer']
+SINGLE_GEOMETRY_OPERATIONS = ['envelope', 'convex_hull', 'boundary', 'centroid']
+
 # 입력된 operation_name에 따라 적절한 operation을 실행
 def match_operation(handler, operation_name, p1, p2, is_jena):
-    if operation_name in ["contains", "covers", "covered_by", "crosses", "disjoint", "equals", "intersects", "overlaps", "touches", "within"]:
-        handler.query_operation(operation_name, p1, p2, is_jena)
-    if operation_name in ["difference", "intersection", "union", "sym_difference"]:
+    if operation_name in TWO_TOPOLOGY_OPERATIONS:
+        handler.query_topology_operation(operation_name, p1, p2, is_jena)
+    if operation_name in TWO_GEOMETRY_OPERATIONS:
         handler.query_set_operation(operation_name, p1, p2, is_jena)
-    if operation_name in ["distnace"]:
+    if operation_name in DISTANCE_OPERATIONS:
         handler.query_dual_operation(operation_name, p1, p2, is_jena)
-    if operation_name in ["buffer"]:
+    if operation_name in PARAM_OPERATIONS:
         handler.query_param_operation(operation_name, p1, p2, is_jena)
-    if operation_name in ["envelope", "convex_hull", "boundary", "centroid"]:
+    if operation_name in SINGLE_GEOMETRY_OPERATIONS:
         handler.query_single_operation(operation_name, p1, is_jena)
 
 # 테스트 전에 미리 operation과 jenaOperation에서 10번씩 연산 실행.
-def boiling_test(operation_name, p1, p2):
+def warming_test(operation_name, p1, p2):
     with contextlib.redirect_stdout(io.StringIO()): # print 출력 방지
         test_operation_10times(operation_name, p1, p2, is_jena=False)
         test_operation_10times(operation_name, p1, p2, is_jena=True)
@@ -159,7 +165,7 @@ def test_operation_10times(operation_name, p1, p2, is_jena):
 def test_comparison(operation_name, p1, p2):
     with open(f'test_results/test_{p1}_{operation_name}_{p2}.log', 'w') as f:
         with contextlib.redirect_stdout(f):
-            boiling_test(operation_name, p1, p2)
+            warming_test(operation_name, p1, p2)
             print(f"Test {operation_name} operation 10 times on operation")
             test_operation_10times(operation_name, p1, p2, is_jena=False)
             print(f"Test {operation_name} operation 10 times on jenaOperation")
@@ -193,12 +199,43 @@ def calculate_average_times(operation_name, p1, p2):
     
     return avg_operation_time, avg_jena_operation_time
 
+DATA_LIST = ['AgendaArea', 'GoodWayToWalk', 'Apartment']
+
+def test_two_geometry_operation(operation_name):
+    for l1 in DATA_LIST:
+        for l2 in DATA_LIST:
+            test_comparison(operation_name, l1, l2)
+
+def test_single_geometry_operation(operation_name):
+    for l in DATA_LIST:
+        test_comparison(operation_name, l, None)
+
+def test_param_operation(operation_name):
+    param_list = [0.1, 0.5, 1.0, 10.0, 100.0]
+    for l in DATA_LIST:
+        for param in param_list:
+            test_comparison(operation_name, l, param)
+
+def test_all_operations():
+    for operation_name in TWO_GEOMETRY_OPERATIONS:
+        test_two_geometry_operation(operation_name)
+    
+    for operation_name in TWO_TOPOLOGY_OPERATIONS:
+        test_two_geometry_operation(operation_name)
+    
+    for operation_name in SINGLE_GEOMETRY_OPERATIONS:
+        test_single_geometry_operation(operation_name)
+    
+    for operation_name in PARAM_OPERATIONS:
+        test_param_operation(operation_name)
+
 # 테스트 실행
 if __name__ == '__main__':
-    test_comparison('intersection', 'GoodWayToWalk', 'GoodWayToWalk')
-    test_comparison('contains', 'AgendaArea', 'Apartment')
-    test_comparison('within', 'Apartment', 'AgendaArea')
-    test_comparison('intersects', 'AgendaArea', 'AgendaArea')
-    test_comparison('boundary', 'AgendaArea', None)
-    test_comparison('convex_hull', 'AgendaArea', None)
-    test_comparison('envelope', 'AgendaArea', None)
+    # test_comparison('intersection', 'GoodWayToWalk', 'GoodWayToWalk')
+    # test_comparison('contains', 'AgendaArea', 'Apartment')
+    # test_comparison('within', 'Apartment', 'AgendaArea')
+    # test_comparison('intersects', 'AgendaArea', 'AgendaArea')
+    # test_comparison('boundary', 'AgendaArea', None)
+    # test_comparison('convex_hull', 'AgendaArea', None)
+    # test_comparison('envelope', 'AgendaArea', None)
+    test_all_operations()
