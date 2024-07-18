@@ -1,0 +1,24 @@
+Test intersection operation 10 times on operation
+### 실행시간: 0.271sec
+### 실행시간: 0.250sec
+### 실행시간: 0.248sec
+### 실행시간: 0.247sec
+### 실행시간: 0.250sec
+### 실행시간: 0.259sec
+### 실행시간: 0.251sec
+### 실행시간: 0.248sec
+### 실행시간: 0.247sec
+### 실행시간: 0.249sec
+Test intersection operation 10 times on jenaOperation
+### 실행시간: 0.256sec
+### 실행시간: 0.240sec
+### 실행시간: 0.234sec
+### 실행시간: 0.252sec
+### 실행시간: 0.237sec
+### 실행시간: 0.248sec
+### 실행시간: 0.241sec
+### 실행시간: 0.242sec
+### 실행시간: 0.243sec
+### 실행시간: 0.240sec
+Average operation time: 0.252sec
+Average jenaOperation time: 0.243sec

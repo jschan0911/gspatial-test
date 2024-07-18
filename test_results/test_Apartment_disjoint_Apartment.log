@@ -1,0 +1,24 @@
+Test disjoint operation 10 times on operation
+### 실행시간: 0.718sec
+### 실행시간: 0.681sec
+### 실행시간: 0.729sec
+### 실행시간: 0.730sec
+### 실행시간: 0.727sec
+### 실행시간: 0.742sec
+### 실행시간: 0.662sec
+### 실행시간: 0.715sec
+### 실행시간: 0.734sec
+### 실행시간: 0.730sec
+Test disjoint operation 10 times on jenaOperation
+### 실행시간: 0.733sec
+### 실행시간: 0.689sec
+### 실행시간: 0.728sec
+### 실행시간: 0.661sec
+### 실행시간: 0.712sec
+### 실행시간: 0.728sec
+### 실행시간: 0.731sec
+### 실행시간: 0.741sec
+### 실행시간: 0.697sec
+### 실행시간: 0.719sec
+Average operation time: 0.717sec
+Average jenaOperation time: 0.714sec

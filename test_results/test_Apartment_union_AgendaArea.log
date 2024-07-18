@@ -1,0 +1,24 @@
+Test union operation 10 times on operation
+### 실행시간: 0.405sec
+### 실행시간: 0.398sec
+### 실행시간: 0.395sec
+### 실행시간: 0.402sec
+### 실행시간: 0.398sec
+### 실행시간: 0.398sec
+### 실행시간: 0.395sec
+### 실행시간: 0.392sec
+### 실행시간: 0.403sec
+### 실행시간: 0.398sec
+Test union operation 10 times on jenaOperation
+### 실행시간: 0.383sec
+### 실행시간: 0.382sec
+### 실행시간: 0.382sec
+### 실행시간: 0.389sec
+### 실행시간: 0.388sec
+### 실행시간: 0.382sec
+### 실행시간: 0.396sec
+### 실행시간: 0.380sec
+### 실행시간: 0.385sec
+### 실행시간: 0.392sec
+Average operation time: 0.398sec
+Average jenaOperation time: 0.386sec

@@ -1,0 +1,24 @@
+Test envelope operation 10 times on operation
+### 실행시간: 0.012sec
+### 실행시간: 0.004sec
+### 실행시간: 0.003sec
+### 실행시간: 0.003sec
+### 실행시간: 0.003sec
+### 실행시간: 0.002sec
+### 실행시간: 0.002sec
+### 실행시간: 0.002sec
+### 실행시간: 0.002sec
+### 실행시간: 0.002sec
+Test envelope operation 10 times on jenaOperation
+### 실행시간: 0.012sec
+### 실행시간: 0.002sec
+### 실행시간: 0.002sec
+### 실행시간: 0.002sec
+### 실행시간: 0.002sec
+### 실행시간: 0.002sec
+### 실행시간: 0.002sec
+### 실행시간: 0.002sec
+### 실행시간: 0.003sec
+### 실행시간: 0.002sec
+Average operation time: 0.004sec
+Average jenaOperation time: 0.003sec

@@ -1,0 +1,24 @@
+Test difference operation 10 times on operation
+### 실행시간: 0.400sec
+### 실행시간: 0.385sec
+### 실행시간: 0.385sec
+### 실행시간: 0.402sec
+### 실행시간: 0.387sec
+### 실행시간: 0.386sec
+### 실행시간: 0.390sec
+### 실행시간: 0.390sec
+### 실행시간: 0.387sec
+### 실행시간: 0.383sec
+Test difference operation 10 times on jenaOperation
+### 실행시간: 0.404sec
+### 실행시간: 0.378sec
+### 실행시간: 0.375sec
+### 실행시간: 0.381sec
+### 실행시간: 0.373sec
+### 실행시간: 0.391sec
+### 실행시간: 0.380sec
+### 실행시간: 0.379sec
+### 실행시간: 0.371sec
+### 실행시간: 0.378sec
+Average operation time: 0.390sec
+Average jenaOperation time: 0.381sec

@@ -1,24 +1,24 @@
 Test within operation 10 times on operation
-### 실행시간: 0.224sec
-### 실행시간: 0.220sec
-### 실행시간: 0.212sec
-### 실행시간: 0.222sec
-### 실행시간: 0.214sec
-### 실행시간: 0.211sec
 ### 실행시간: 0.215sec
-### 실행시간: 0.212sec
-### 실행시간: 0.213sec
-### 실행시간: 0.220sec
-Test within operation 10 times on jenaOperation
-### 실행시간: 0.229sec
-### 실행시간: 0.213sec
-### 실행시간: 0.212sec
-### 실행시간: 0.214sec
-### 실행시간: 0.216sec
+### 실행시간: 0.206sec
+### 실행시간: 0.209sec
+### 실행시간: 0.208sec
+### 실행시간: 0.208sec
 ### 실행시간: 0.211sec
-### 실행시간: 0.224sec
+### 실행시간: 0.210sec
+### 실행시간: 0.211sec
+### 실행시간: 0.209sec
+### 실행시간: 0.210sec
+Test within operation 10 times on jenaOperation
+### 실행시간: 0.223sec
+### 실행시간: 0.210sec
+### 실행시간: 0.209sec
+### 실행시간: 0.213sec
+### 실행시간: 0.213sec
 ### 실행시간: 0.214sec
-### 실행시간: 0.219sec
-### 실행시간: 0.221sec
-Average operation time: 0.216sec
-Average jenaOperation time: 0.217sec
+### 실행시간: 0.211sec
+### 실행시간: 0.208sec
+### 실행시간: 0.211sec
+### 실행시간: 0.208sec
+Average operation time: 0.210sec
+Average jenaOperation time: 0.212sec

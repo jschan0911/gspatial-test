@@ -1,0 +1,34 @@
+Test centroid operation 10 times on operation
+### 실행시간: 0.009sec
+### 실행시간: 0.007sec
+### 실행시간: 0.006sec
+### 실행시간: 0.006sec
+### 실행시간: 0.006sec
+### 실행시간: 0.006sec
+### 실행시간: 0.006sec
+### 실행시간: 0.006sec
+### 실행시간: 0.006sec
+### 실행시간: 0.005sec
+Test centroid operation 10 times on jenaOperation
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.013605 37.507538) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.006sec
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.013605 37.507538) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.002sec
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.013605 37.507538) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.002sec
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.013605 37.507538) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.002sec
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.013605 37.507538) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.002sec
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.013605 37.507538) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.002sec
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.013605 37.507538) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.002sec
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.013605 37.507538) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.001sec
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.013605 37.507538) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.002sec
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.013605 37.507538) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.002sec
+Average operation time: 0.006sec
+Average jenaOperation time: 0.002sec

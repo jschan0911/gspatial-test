@@ -1,0 +1,24 @@
+Test contains operation 10 times on operation
+### 실행시간: 0.232sec
+### 실행시간: 0.219sec
+### 실행시간: 0.213sec
+### 실행시간: 0.228sec
+### 실행시간: 0.216sec
+### 실행시간: 0.218sec
+### 실행시간: 0.253sec
+### 실행시간: 0.218sec
+### 실행시간: 0.227sec
+### 실행시간: 0.222sec
+Test contains operation 10 times on jenaOperation
+### 실행시간: 0.229sec
+### 실행시간: 0.221sec
+### 실행시간: 0.231sec
+### 실행시간: 0.217sec
+### 실행시간: 0.217sec
+### 실행시간: 0.218sec
+### 실행시간: 0.216sec
+### 실행시간: 0.229sec
+### 실행시간: 0.208sec
+### 실행시간: 0.214sec
+Average operation time: 0.225sec
+Average jenaOperation time: 0.220sec

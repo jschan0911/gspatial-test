@@ -1,24 +1,24 @@
 Test convex_hull operation 10 times on operation
-### 실행시간: 0.014sec
 ### 실행시간: 0.010sec
+### 실행시간: 0.007sec
+### 실행시간: 0.007sec
+### 실행시간: 0.007sec
+### 실행시간: 0.007sec
+### 실행시간: 0.007sec
+### 실행시간: 0.007sec
+### 실행시간: 0.007sec
 ### 실행시간: 0.009sec
-### 실행시간: 0.009sec
-### 실행시간: 0.010sec
-### 실행시간: 0.009sec
-### 실행시간: 0.010sec
-### 실행시간: 0.010sec
-### 실행시간: 0.009sec
-### 실행시간: 0.009sec
+### 실행시간: 0.007sec
 Test convex_hull operation 10 times on jenaOperation
-### 실행시간: 0.014sec
-### 실행시간: 0.012sec
-### 실행시간: 0.010sec
-### 실행시간: 0.024sec
-### 실행시간: 0.009sec
-### 실행시간: 0.009sec
+### 실행시간: 0.011sec
+### 실행시간: 0.007sec
+### 실행시간: 0.007sec
+### 실행시간: 0.007sec
+### 실행시간: 0.007sec
+### 실행시간: 0.007sec
+### 실행시간: 0.007sec
+### 실행시간: 0.007sec
+### 실행시간: 0.007sec
 ### 실행시간: 0.008sec
-### 실행시간: 0.009sec
-### 실행시간: 0.010sec
-### 실행시간: 0.010sec
-Average operation time: 0.010sec
-Average jenaOperation time: 0.011sec
+Average operation time: 0.007sec
+Average jenaOperation time: 0.007sec

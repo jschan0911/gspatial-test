@@ -1,0 +1,24 @@
+Test boundary operation 10 times on operation
+### 실행시간: 0.007sec
+### 실행시간: 0.002sec
+### 실행시간: 0.002sec
+### 실행시간: 0.002sec
+### 실행시간: 0.001sec
+### 실행시간: 0.001sec
+### 실행시간: 0.002sec
+### 실행시간: 0.002sec
+### 실행시간: 0.001sec
+### 실행시간: 0.001sec
+Test boundary operation 10 times on jenaOperation
+### 실행시간: 0.005sec
+### 실행시간: 0.002sec
+### 실행시간: 0.001sec
+### 실행시간: 0.001sec
+### 실행시간: 0.001sec
+### 실행시간: 0.001sec
+### 실행시간: 0.001sec
+### 실행시간: 0.002sec
+### 실행시간: 0.002sec
+### 실행시간: 0.001sec
+Average operation time: 0.002sec
+Average jenaOperation time: 0.002sec

@@ -1,0 +1,34 @@
+Test centroid operation 10 times on operation
+### 실행시간: 0.011sec
+### 실행시간: 0.008sec
+### 실행시간: 0.006sec
+### 실행시간: 0.007sec
+### 실행시간: 0.010sec
+### 실행시간: 0.008sec
+### 실행시간: 0.007sec
+### 실행시간: 0.005sec
+### 실행시간: 0.019sec
+### 실행시간: 0.008sec
+Test centroid operation 10 times on jenaOperation
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.00160626240155 37.47886445215587) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.005sec
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.00160626240155 37.47886445215587) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.002sec
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.00160626240155 37.47886445215587) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.002sec
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.00160626240155 37.47886445215587) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.002sec
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.00160626240155 37.47886445215587) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.002sec
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.00160626240155 37.47886445215587) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.002sec
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.00160626240155 37.47886445215587) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.002sec
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.00160626240155 37.47886445215587) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.002sec
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.00160626240155 37.47886445215587) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.001sec
+Query failed: {code: Neo.ClientError.Procedure.ProcedureCallFailed} {message: Failed to invoke procedure `gspatial.jenaOperation`: Caused by: java.lang.IllegalArgumentException: Cannot convert POINT (127.00160626240155 37.47886445215587) of type org.locationtech.jts.geom.Point to AnyValue, classloader=jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27, classloader-name=app}
+### 실행시간: 0.002sec
+Average operation time: 0.009sec
+Average jenaOperation time: 0.002sec

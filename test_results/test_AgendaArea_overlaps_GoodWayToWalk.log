@@ -1,0 +1,24 @@
+Test overlaps operation 10 times on operation
+### 실행시간: 0.028sec
+### 실행시간: 0.021sec
+### 실행시간: 0.022sec
+### 실행시간: 0.022sec
+### 실행시간: 0.022sec
+### 실행시간: 0.021sec
+### 실행시간: 0.030sec
+### 실행시간: 0.020sec
+### 실행시간: 0.020sec
+### 실행시간: 0.021sec
+Test overlaps operation 10 times on jenaOperation
+### 실행시간: 0.025sec
+### 실행시간: 0.027sec
+### 실행시간: 0.021sec
+### 실행시간: 0.020sec
+### 실행시간: 0.021sec
+### 실행시간: 0.020sec
+### 실행시간: 0.020sec
+### 실행시간: 0.020sec
+### 실행시간: 0.025sec
+### 실행시간: 0.021sec
+Average operation time: 0.023sec
+Average jenaOperation time: 0.022sec

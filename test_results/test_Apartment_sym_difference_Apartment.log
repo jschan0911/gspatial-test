@@ -1,0 +1,24 @@
+Test sym_difference operation 10 times on operation
+### 실행시간: 0.874sec
+### 실행시간: 0.849sec
+### 실행시간: 0.838sec
+### 실행시간: 0.831sec
+### 실행시간: 0.868sec
+### 실행시간: 0.868sec
+### 실행시간: 0.876sec
+### 실행시간: 0.856sec
+### 실행시간: 0.860sec
+### 실행시간: 0.855sec
+Test sym_difference operation 10 times on jenaOperation
+### 실행시간: 0.877sec
+### 실행시간: 0.835sec
+### 실행시간: 0.861sec
+### 실행시간: 0.829sec
+### 실행시간: 0.875sec
+### 실행시간: 0.882sec
+### 실행시간: 0.872sec
+### 실행시간: 0.868sec
+### 실행시간: 0.881sec
+### 실행시간: 0.855sec
+Average operation time: 0.857sec
+Average jenaOperation time: 0.863sec
